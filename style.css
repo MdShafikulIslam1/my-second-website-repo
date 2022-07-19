@@ -1,0 +1,90 @@
+/*  google font  @import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common css style for all */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* header section start  */
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.container{
+    width: 1320px;
+    background: #1E1E1E;
+    margin-top: 30px;
+    
+}
+.tv-show{
+    display:flex;
+    margin: 30px;
+    padding:10px 25px;
+}
+
+.show-details{
+    color: #ffff;
+    margin-bottom:80px;
+}
+.show a{
+    text-decoration: none;
+   
+}
+.show-title{
+    font-size: 70px;
+    font-weight:700;
+}
+
+.show-details, .show-banner{
+    width:50%;
+    margin-left: 30px;
+    
+}
+.watch-btn{
+    background-color: #DD0000;
+    padding:16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+       
+}
+.fa-solid{
+    margin-left: 20px;
+}
+
+
+/* header section style end  */
+
+
+
+
+/* main section style start   */
+
+.win-container{
+    width: 1320px;
+    margin-top: 60px;
+}
+.win-blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-column-gap: 10px; */
+    gap: 10px;
+}
+.blog{
+    /* padding: 10px; */
+}
+button{
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px 15px;
+}
+
+.blog-info{
+    display:flex;
+    justify-content:baseline;
+}
