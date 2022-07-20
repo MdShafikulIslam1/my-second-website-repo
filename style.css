@@ -155,11 +155,12 @@ footer {
 }
 
 nav {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 nav li {
     list-style: none;
+    margin-left: 10px;
 
 }
 
@@ -167,6 +168,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     padding: 5px 10px;
+    
 }
 
 nav li a {
@@ -174,3 +176,47 @@ nav li a {
     color: #ffff;
     font-size: 1.5em;
 }
+/* -------------------------------------            Media query start       ------------------------------------------------- */
+
+
+
+/*                  ----------------------------      smaller screen [M0bille]                   --------------------------*/
+@media  only screen and (max-width: 768px){
+    .container,.win-blogs {
+        width: 100%;
+    }
+    .tv-show{
+        flex-direction: column;
+    }
+    .win-container{
+        flex-direction: column;
+    }
+
+    .win-blogs{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    footer nav{
+        flex-direction: column;
+    }
+   nav ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   nav ul li{
+    margin-top: 15px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
