@@ -110,7 +110,7 @@ main {
     margin: 20px;
 }
 
-.item-3 {
+.item-1{
     background: #DD0000;
     border-radius: 10px;
 }
@@ -126,7 +126,13 @@ main {
     padding: 10px;
     margin-left: 10px;
 }
-
+.win-banner {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
 
 .blog-info {
     display: flex;
