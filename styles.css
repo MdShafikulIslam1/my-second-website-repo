@@ -110,7 +110,7 @@ main {
     margin: 20px;
 }
 
-.item-3 {
+.item-1{
     background: #DD0000;
     border-radius: 10px;
 }
@@ -123,27 +123,27 @@ main {
 }
 .blog{
     border:1px solid aqua;
-    padding: 10px;
-    margin-left: 10px;
+    padding: 5px;
+    
 }
- .view-btn {
+.win-banner {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    display:none;
- }
-
-.blog-info {
-    display: flex;
-    justify-content: baseline;
+    margin: 20px;
+    padding: 10px;
 }
-button {
-    text-align: center;
-    margin: 10px 20px;
-    padding: 5px 15px;
+.win-banner img{
+    width:100%;
+   
 }
-
-/* -----------------Footer style start ---------------- */
+.win-banner p{
+    margin:0px 10px;
+}
+.blog-title ,.match-time{
+    text-align:center;
+}
+-----------------Footer style start ----------------
 footer {
     background-color: black;
     margin-top: 50px;
@@ -181,93 +181,3 @@ nav li a {
     color: #ffff;
     font-size: 18px;
 }
-.social-icon{
-   display: none;
-}
-.social-icon ul{
-    display: flex;
-    justify-content: center;
-    background-color: gray;
-}
-.social-icon ul li{
-    margin-left: 30px;
-    list-style: none;
-    padding: 10px 20px;
-    
-}
-.social-icon ul li a{
-    text-decoration: none;
-    font-size: 30px;
-}
-/* -------------------------------------            Media query start       ------------------------------------------------- */
-
-
-
-/*                  ----------------------------      smaller screen [M0bille]                   --------------------------*/
-@media  only screen and (max-width: 768px){
-    .container,.win-blogs {
-        width: 100%;
-    }
-    .tv-show{
-        flex-direction: column;
-    }
-    .win-container{
-        flex-direction: column;
-    }
-
-    .win-blogs{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    footer nav{
-        flex-direction: column;
-    }
-   nav ul{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   }
-   nav ul li{
-    margin-top: 15px;
-   }
-   .social-icon{
-    display:block;
-   }
-}
-/*   -----------------------------------------------                 Tablet screen display                     --------------- */
-
-@media only screen and (min-width:768px) and (max-width:992px){
-
-    .container,.win-blogs, .item-container {
-        width: 100%;
-    }
-    .win-container{
-        flex-direction: column;
-    }
-     .item-container{
-        background-color:lightblue;
-        height:100%;
-     }
-    .item{
-        display: flex;
-        justify-content:space-between;
-        
-    }
-    .win-blogs{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .view-btn {
-        display:flex;
-     }
-    
-}
-
-
-
-
-
-
-
-
-
-
