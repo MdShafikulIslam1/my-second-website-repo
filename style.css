@@ -174,7 +174,7 @@ nav ul {
 nav li a {
     text-decoration: none;
     color: #ffff;
-    font-size: 1.5em;
+    font-size: 18px;
 }
 /* -------------------------------------            Media query start       ------------------------------------------------- */
 
@@ -194,7 +194,6 @@ nav li a {
 
     .win-blogs{
         grid-template-columns: repeat(1, 1fr);
-        
     }
     footer nav{
         flex-direction: column;
@@ -209,7 +208,27 @@ nav li a {
     margin-top: 15px;
    }
 }
+@media only screen and (min-width:768px) and (max-width:992px){
 
+    .container,.win-blogs, .item-container {
+        width: 100%;
+    }
+    .win-container{
+        flex-direction: column;
+    }
+     .item-container{
+        background-color:lightblue;
+        height:100%;
+     }
+    .item{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+    .win-blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 
