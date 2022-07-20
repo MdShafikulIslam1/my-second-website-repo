@@ -10,7 +10,7 @@ body{
 
 
 /* header section start  */
-header, main{
+header, main ,footer{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -87,4 +87,35 @@ button{
 .blog-info{
     display:flex;
     justify-content:baseline;
+}
+
+
+/* Footer style start  */
+footer {
+    background-color: black;
+}
+.copyright-container{
+    width: 1320px;
+}
+.copyright-details{
+    text-align: center;
+    color:#fff;
+    margin:30px 0px;
+}
+nav{
+    margin-bottom:20px;
+}
+nav li{
+    list-style: none;
+    
+}
+nav ul{
+    display:flex;
+    justify-content:space-evenly;
+    padding:5px 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: #ffff;
+
 }
