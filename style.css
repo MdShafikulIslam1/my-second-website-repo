@@ -118,11 +118,14 @@ main {
 .win-blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-column-gap: 10px; */
     gap: 10px;
-    width: 1320px;
+    width: 1200px;
 }
-
+.blog{
+    border:1px solid aqua;
+    padding: 10px;
+    margin-left: 10px;
+}
 button {
     text-align: center;
     margin: 10px 20px;
@@ -138,6 +141,7 @@ button {
 /* Footer style start  */
 footer {
     background-color: black;
+    margin-top: 50px;
 }
 
 .copyright-container {
@@ -168,5 +172,5 @@ nav ul {
 nav li a {
     text-decoration: none;
     color: #ffff;
-
+    font-size: 1.5em;
 }
