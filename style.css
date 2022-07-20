@@ -3,57 +3,66 @@
 
 /* common css style for all */
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 
 
 /* header section start  */
-header, main ,footer{
+header,
+footer,
+main {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
-.container{
+
+.container {
     width: 1320px;
     background: #1E1E1E;
     margin-top: 30px;
-    
+
 }
-.tv-show{
-    display:flex;
+
+.tv-show {
+    display: flex;
     margin: 30px;
-    padding:10px 25px;
+    padding: 10px 25px;
 }
 
-.show-details{
+.show-details {
     color: #ffff;
-    margin-bottom:80px;
-}
-.show a{
-    text-decoration: none;
-   
-}
-.show-title{
-    font-size: 70px;
-    font-weight:700;
+    margin-bottom: 80px;
 }
 
-.show-details, .show-banner{
-    width:50%;
-    margin-left: 30px;
-    
+.show a {
+    text-decoration: none;
+
 }
-.watch-btn{
+
+.show-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.show-details,
+.show-banner {
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.watch-btn {
     background-color: #DD0000;
-    padding:16px 25px;
+    padding: 16px 25px;
     border-radius: 5px;
     text-decoration: none;
     color: #ffff;
-       
+
 }
-.fa-solid{
+
+.fa-solid {
     margin-left: 20px;
 }
 
@@ -65,28 +74,64 @@ header, main ,footer{
 
 /* main section style start   */
 
-.win-container{
-    width: 1320px;
+.win-container {
+
+    display: flex;
     margin-top: 60px;
+
 }
-.win-blogs{
+
+.item-container {
+    border-radius: 12px;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    margin: 0px 10px;
+}
+
+.item li {
+    list-style: none;
+
+}
+
+.item li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    background-color: #fff;
+    padding: 17px 39px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.item-3 {
+    background: #DD0000;
+    border-radius: 10px;
+}
+
+.win-blogs {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* grid-column-gap: 10px; */
     gap: 10px;
+    width: 1320px;
 }
-.blog{
-    /* padding: 10px; */
-}
-button{
+
+button {
     text-align: center;
     margin: 10px 20px;
     padding: 5px 15px;
 }
 
-.blog-info{
-    display:flex;
-    justify-content:baseline;
+.blog-info {
+    display: flex;
+    justify-content: baseline;
 }
 
 
@@ -94,26 +139,32 @@ button{
 footer {
     background-color: black;
 }
-.copyright-container{
+
+.copyright-container {
     width: 1320px;
 }
-.copyright-details{
+
+.copyright-details {
     text-align: center;
-    color:#fff;
-    margin:30px 0px;
+    color: #fff;
+    margin: 50px 0px;
 }
-nav{
-    margin-bottom:20px;
+
+nav {
+    margin-bottom: 20px;
 }
-nav li{
+
+nav li {
     list-style: none;
-    
+
 }
-nav ul{
-    display:flex;
-    justify-content:space-evenly;
-    padding:5px 10px;
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
 }
+
 nav li a {
     text-decoration: none;
     color: #ffff;
