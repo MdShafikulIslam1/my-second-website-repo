@@ -110,7 +110,7 @@ main {
     margin: 20px;
 }
 
-.item-3 {
+.item-1 {
     background: #DD0000;
     border-radius: 10px;
 }
@@ -127,11 +127,14 @@ main {
     margin-left: 10px;
 }
  .view-btn {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     display:none;
+    border: 1px solid blue;
+    margin: 20px 0px 0px 300px;
+    
  }
 
 .blog-info {
@@ -207,12 +210,8 @@ nav li a {
 /*                  ----------------------------      smaller screen [M0bille]                   --------------------------*/
 @media  only screen and (max-width: 768px){
     .container,.win-blogs {
-        width: 100%;
-    }
-   /* .blog{
-    display: flex;
-    align-items: center;
-   } */
+        width: 100%;}
+   
     .tv-show{
         flex-direction: column;
     }
@@ -261,7 +260,10 @@ nav li a {
     }
     .win-blogs{
         grid-template-columns: repeat(2, 1fr);
+        
+      
     }
+    
     .view-btn {
         display:flex;
      }
